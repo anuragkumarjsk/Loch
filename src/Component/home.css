@@ -1,0 +1,23 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background : radial-gradient(
+    circle    
+    at bottom left,
+    #1D8D12 ,#265868,#2E14CD,#1F1270,#171426  /* using variables just for fun! */
+    )
+}
+
+.top{
+    width: 100%;
+    flex:35
+}
+.mid{
+    width: 100%;
+    flex:40
+}
+.bottom{
+    width: 100%;
+    flex:25
+}
